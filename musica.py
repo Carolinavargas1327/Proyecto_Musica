@@ -3,7 +3,7 @@ import pandas as pd
 # Seleccionar y subir el archivo CSV
 archivos = files.upload()
 
-# Obtener el nombre del archivo subido
+# Obtener el nombre del archivo subido (usando 'next' en minúsculas)
 spotify = next(iter(archivos))
 
 # Leer el dataset (usando la variable directamente)
